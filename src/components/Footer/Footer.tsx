@@ -3,7 +3,7 @@ import reactIcon from '../../assets/react-icon.svg'
 import linkedin from '../../assets/linkedin.svg'
 import githubIcon from '../../assets/github.svg'
 import whatsapp from '../../assets/whatsapp.svg'
-import telegram from '../../assets/telegram.svg'
+import GmailIcon from '../../assets/gmail-icon.svg'
 import instagramIcon from '../../assets/instagram.svg'
 
 export function Footer() {
@@ -42,11 +42,11 @@ export function Footer() {
           <img src={whatsapp} alt="Whatsapp" />
         </a>
         <a
-          href="https://t.me/raghutelkar"
+          href="mailto:raghutelkarjobs@gmail.com"
           target="_blank"
           rel="noreferrer"
         >
-          <img src={telegram} alt="telegram" />
+          <img src={GmailIcon} alt="gmail" />
         </a>
         <a
           href="https://www.instagram.com/raghutelkar.in"

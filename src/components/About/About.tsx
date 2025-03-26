@@ -34,11 +34,16 @@ import ScrollAnimation from "react-animate-on-scroll";
 export function About() {
   return (
     <Container id="about">
+      <div className="about-image">
+        <ScrollAnimation animateIn="fadeInLeft" delay={0.20 * 1000}>
+          <img src={RaghuTelkar} alt="Raghu Telkar"/>
+        </ScrollAnimation>
+      </div>
       <div className="about-text">
-        <ScrollAnimation animateIn="fadeInLeft">
+        <ScrollAnimation animateIn="fadeInRight" delay={0.1 * 1000}>
           <h2>About me</h2>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
+        <ScrollAnimation animateIn="fadeInRight" delay={0.1 * 1000}>
           <p>
             Hi there! I'm Raghavendra Telkar,<br/><br/>Experienced UI UX Lead Front-End Engineer with over 13 yrs of corporate expertise in UI/UX web design and development for responsive web applications. Skilled in HTML5, CSS3, Bootstrap, JavaScript, ES6, Angular, React RTK & Redux, Vite, Node, NPM, and Java Micro-services. Proficient in design tools such as Photoshop, Figma, Adobe XD, Sketch, and Invision App. Consistently adheres to RWD and W3C standards, ensuring compliance with accessibility standards. Achievements include leading front-end engineering projects and driving compelling HCD/UXD websites and interfaces. Seeking a Lead Engineer position at a company that values innovation and user experience design. 
           </p>
@@ -55,7 +60,7 @@ export function About() {
         <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
           <p><strong>Agile Methodologies</strong> -  Extensive experience working in Agile environments and leading teams in Agile transformation. </p>
         </ScrollAnimation> */}
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
+        <ScrollAnimation animateIn="fadeInRight" delay={0.3 * 1000}>
           <h3>Here are my UI Frontend Engineering Skills:</h3>
         </ScrollAnimation>
         <div className="hard-skills">
@@ -206,7 +211,7 @@ export function About() {
             </ScrollAnimation>
           </div>
         </div>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
+        <ScrollAnimation animateIn="fadeInRight" delay={0.3 * 1000}>
           <h3>Here are my UX Design Skills:</h3>
         </ScrollAnimation>
         <div className="hard-skills">
@@ -237,11 +242,6 @@ export function About() {
             </ScrollAnimation>
           </div>
         </div>
-      </div>
-      <div className="about-image">
-        <ScrollAnimation animateIn="fadeInRight" delay={0.20 * 1000}>
-          <img src={RaghuTelkar} alt="Raghu Telkar"/>
-        </ScrollAnimation>
       </div>
     </Container>
   )
