@@ -35,7 +35,7 @@ export function Footer() {
           <img src={githubIcon} alt="GitHub" />
         </a>
         <a
-          href="https://api.whatsapp.com/send/?phone=%2B9972591770&text=Hello+RaghuTelkar"
+          href="https://api.whatsapp.com/send/?phone=+919972591770&text=Hello+RaghuTelkar"
           target="_blank"
           rel="noreferrer"
         >
