@@ -4,18 +4,36 @@ import { Hero } from "../Hero/Hero";
 import { About } from "../About/About";
 import { Contact } from "../Contact/Contact";
 import { Project } from "../Project/Project";
-import wordpress from "../../assets/wordpress.svg";
-import shopify from "../../assets/shopify.svg";
 import htmlIcon from "../../assets/html-icon.svg";
 import cssIcon from "../../assets/css-icon.svg";
 import sassIcon from "../../assets/sass-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
+import jqueryIcon from "../../assets/jquery-icon.svg";
 import nodeIcon from "../../assets/node-icon.svg";
 import reactIcon from "../../assets/react-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
-import vueIcon from "../../assets/vue-icon.svg";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
-
+import viteIcon from "../../assets/vite-icon.svg";
+import es6Icon from "../../assets/es6-icon.svg";
+import reduxtoolkitIcon from "../../assets/reduxtoolkit-icon.svg";
+import angularIcon from "../../assets/angular-icon.svg";
+import storybookIcon from "../../assets/storybook-icon.svg";
+import mswIcon from "../../assets/msw-icon.svg";
+import lessIcon from "../../assets/less-icon.svg";
+import cssvanillaextractIcon from "../../assets/cssvanillaextract-icon.svg";
+import webpackIcon from "../../assets/webpack-icon.svg";
+import postmanIcon from "../../assets/postman-icon.svg";
+import rtlIcon from "../../assets/rtl-icon.png";
+import vitestIcon from "../../assets/vitest-icon.svg";
+import jestIcon from "../../assets/jest-icon.svg";
+import visualstudioIcon from "../../assets/visualstudio-icon.svg";
+import figmaIcon from "../../assets/figma-icon.svg";
+import sketchIcon from "../../assets/sketch-icon.svg";
+import gitIcon from "../../assets/git-icon.svg";
+import xdIcon from "../../assets/xd-icon.svg";
+import axureIcon from "../../assets/axure-icon.png";
+import photoshopIcon from "../../assets/photoshop-icon.svg";
+import eslintIcon from "../../assets/eslint-icon.svg";
 export function Main() {
   return (
     <Container>
@@ -159,16 +177,6 @@ export function Main() {
                   "height": 20
                 },
                 {
-                  "src": wordpress,
-                  "width": 20,
-                  "height": 20
-                },
-                {
-                  "src": shopify,
-                  "width": 20,
-                  "height": 20
-                },
-                {
                   "src": htmlIcon,
                   "width": 20,
                   "height": 20
@@ -178,11 +186,11 @@ export function Main() {
                   "width": 20,
                   "height": 20
                 },
-                // {
-                //   "src": mysqlIcon,
-                //   "width": 20,
-                //   "height": 20
-                // },
+                {
+                  "src": jqueryIcon,
+                  "width": 20,
+                  "height": 20
+                },
                 {
                   "src": nodeIcon,
                   "width": 20,
@@ -194,26 +202,115 @@ export function Main() {
                   "height": 20
                 },
                 {
+                  "src": typescriptIcon,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": viteIcon,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": es6Icon,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": reduxtoolkitIcon,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": angularIcon,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": storybookIcon,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": mswIcon,
+                  "width": 20,
+                  "height": 20
+                },
+                {
                   "src": sassIcon,
                   "width": 20,
                   "height": 20
                 },
                 {
-                  "src": typescriptIcon,
+                  "src": lessIcon,
                   "width": 20,
                   "height": 20
                 },
-                // {
-                //   "src": vscodeIcon,
-                //   "width": 20,
-                //   "height": 20
-                // },
                 {
-                  "src": vueIcon,
+                  "src": cssvanillaextractIcon,
                   "width": 20,
                   "height": 20
                 },
-
+                {
+                  "src": webpackIcon,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": postmanIcon,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": rtlIcon,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": vitestIcon,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": jestIcon,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": visualstudioIcon,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": figmaIcon,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": sketchIcon,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": gitIcon,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": xdIcon,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": axureIcon,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": photoshopIcon,
+                  "width": 20,
+                  "height": 20
+                }
               ],
               "polygon": {
                 "sides": 5

@@ -1,13 +1,13 @@
 import { BrowserRouter } from "react-router-dom"
 import { Container } from "./styles"
 import ScrollAnimation from "react-animate-on-scroll"
-import Illustration from "../../assets/illustration.svg"
+import Illustration from "../../assets/uxui.png"
 import { NavHashLink } from "react-router-hash-link"
 import linkedin from '../../assets/linkedin.svg'
 import githubIcon from '../../assets/github.svg'
 import whatsapp from '../../assets/whatsapp.svg'
 import Hello from '../../assets/Hello.gif'
-import telegram from '../../assets/telegram.svg'
+import GmailIcon from '../../assets/gmail-icon.svg'
 export function Hero() {
   return (
     <Container id="home">
@@ -19,10 +19,10 @@ export function Hero() {
           <h1>Raghavendra Telkar</h1>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
-          <h3>UX UI Frontend Lead Engineer</h3>
+          <h3>UI UX Lead Frontend Engineer</h3>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
-          <p className="small-resume">14 Years of Experience</p>
+          <p className="small-resume">13 Years of Experience</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
           <BrowserRouter>
@@ -52,12 +52,13 @@ export function Hero() {
           <img src={whatsapp} alt="Whatsapp" />
         </a>
         <a
-          href="https://t.me/raghutelkar"
+          href="mailto:raghutelkarjobs@gmail.com"
           target="_blank"
           rel="noreferrer"
         >
-          <img src={telegram} alt="telegram" />
-        </a></div>
+          <img src={GmailIcon} alt="gmail" />
+        </a>
+      </div>
         </ScrollAnimation>
       </div>
       <div className="hero-image">

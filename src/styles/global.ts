@@ -2,9 +2,9 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
   :root{
-    --pink: #E31F71;
+    --pink:rgb(226, 92, 92);
     --black: #212121;
-    --green: #23ce6b;
+    --green:rgb(24, 139, 196);
     --blue: #016fb9;
     scroll-padding-top: 10rem;
 
@@ -17,7 +17,7 @@ export const GlobalStyle = createGlobalStyle`
       }
 
       .logo{
-        color: var(--black);
+        // color: var(--black);
       }
 
       header.header-fixed{
