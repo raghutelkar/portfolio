@@ -24,12 +24,14 @@ import vitestIcon from "../../assets/vitest-icon.svg";
 import jestIcon from "../../assets/jest-icon.svg";
 import visualstudioIcon from "../../assets/visualstudio-icon.svg";
 import figmaIcon from "../../assets/figma-icon.svg";
+import pythonIcon from "../../assets/python.svg";
 import sketchIcon from "../../assets/sketch-icon.svg";
 import gitIcon from "../../assets/git-icon.svg";
 import xdIcon from "../../assets/xd-icon.svg";
 import axureIcon from "../../assets/axure-icon.png";
 import photoshopIcon from "../../assets/photoshop-icon.svg";
 import ScrollAnimation from "react-animate-on-scroll";
+import SpringIcon from "../../assets/Spring.svg";
 
 export function About() {
   return (
@@ -45,7 +47,7 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInRight" delay={0.1 * 1000}>
           <p>
-            Hi there! I'm Raghavendra Telkar,<br/><br/>Experienced UI UX Lead Front-End Engineer with over 13 yrs of corporate expertise in UI/UX web design and development for responsive web applications. Skilled in HTML5, CSS3, Bootstrap, JavaScript, ES6, Angular, React RTK & Redux, Vite, Node, NPM, and Java Micro-services. Proficient in design tools such as Photoshop, Figma, Adobe XD, Sketch, and Invision App. Consistently adheres to RWD and W3C standards, ensuring compliance with accessibility standards. Achievements include leading front-end engineering projects and driving compelling HCD/UXD websites and interfaces. Seeking a Lead Engineer position at a company that values innovation and user experience design. 
+            Hi there! I'm Raghavendra Telkar,<br/><br/>Experienced UI UX Lead Front-End Engineer with over 14 yrs of corporate expertise in UI/UX web design and development for responsive web applications. Skilled in HTML5, CSS3, Bootstrap, JavaScript, ES6, Angular, React RTK & Redux, Vite, Node, NPM, and Java Micro-services. Proficient in design tools such as Photoshop, Figma, Adobe XD, Sketch, and Invision App. Consistently adheres to RWD and W3C standards, ensuring compliance with accessibility standards. Achievements include leading front-end engineering projects and driving compelling HCD/UXD websites and interfaces. Seeking a Lead Engineer position at a company that values innovation and user experience design. 
           </p>
         </ScrollAnimation>
         {/* <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
@@ -239,6 +241,22 @@ export function About() {
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.13 * 1000}>
               <img src={photoshopIcon} alt="Photoshop" />
+            </ScrollAnimation>
+          </div>
+        </div>
+        <ScrollAnimation animateIn="fadeInRight" delay={0.3 * 1000}>
+          <h3>Other Skills:</h3>
+        </ScrollAnimation>
+        <div className="hard-skills">
+          {/* UX Design Tools */}
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.13 * 1000}>
+              <img src={pythonIcon} alt="Python" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.13 * 1000}>
+              <img src={SpringIcon} alt="Java Spring" />
             </ScrollAnimation>
           </div>
         </div>
