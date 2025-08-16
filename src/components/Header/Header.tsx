@@ -1,17 +1,29 @@
 import { Container } from './styles'
 import { BrowserRouter as Router } from 'react-router-dom'
 import { NavHashLink, HashLink } from 'react-router-hash-link'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Resume from '../../assets/Telkar_UI_UX_Lead_Front_End_Engineer.pdf'
+
 export function Header() {
   const [isActive, setActive] = useState(false)
+
+  useEffect(() => {
+    // Set light theme by default
+    let html = document.getElementsByTagName('html')[0]
+    if (!html.classList.contains('light')) {
+      html.classList.add('light')
+    }
+  }, [])
+
   function toggleTheme() {
     let html = document.getElementsByTagName('html')[0]
     html.classList.toggle('light')
   }
+
   function closeMenu() {
     setActive(false)
   }
+
   return (
     <Container className="header-fixed">
       <Router>
@@ -25,6 +37,7 @@ export function Header() {
           type="checkbox"
           id="switch"
           name="mode"
+          defaultChecked={true}
         />
         <label htmlFor="switch">Toggle</label>
         <nav className={isActive ? 'active' : ''}>
