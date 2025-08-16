@@ -47,7 +47,13 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInRight" delay={0.1 * 1000}>
           <p>
-            Hi there! I'm Raghavendra Telkar,<br/><br/>Experienced UI UX Lead Front-End Engineer with over 14 yrs of corporate expertise in UI/UX web design and development for responsive web applications. Skilled in HTML5, CSS3, Bootstrap, JavaScript, ES6, Angular, React RTK & Redux, Vite, Node, NPM, and Java Micro-services. Proficient in design tools such as Photoshop, Figma, Adobe XD, Sketch, and Invision App. Consistently adheres to RWD and W3C standards, ensuring compliance with accessibility standards. Achievements include leading front-end engineering projects and driving compelling HCD/UXD websites and interfaces. Seeking a Lead Engineer position at a company that values innovation and user experience design. 
+            Hi there! I'm Raghavendra Telkar,<br/><br/>Experienced UI/ UX Lead Front-End Engineer with 14 years of expertise in web
+design and development for responsive applications. Skilled in <strong>HTML5, CSS3,
+Bootstrap, JavaScript (ES6), Angular, React, Redux, RTK, Node, TypeScript,
+Vite, NPM, Microfrontend</strong>. Proficient with design tools ( <i>Figma, Photoshop, Adobe
+XD, Sketch, Invision</i> ). Adheres to RWD and W3C accessibility standards. Proven
+leader of front-end engineering projects and innovative HCD / UXD interfaces.
+Seeking a Lead Engineer position focused on innovation and user experience .
           </p>
         </ScrollAnimation>
         {/* <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
