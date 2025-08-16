@@ -49,7 +49,7 @@ export function Footer() {
           <img src={GmailIcon} alt="gmail" />
         </a>
         <a
-          href="https://www.instagram.com/raghutelkar.in"
+          href="https://www.instagram.com/raghutelkar"
           target="_blank"
           rel="noreferrer"
         >
