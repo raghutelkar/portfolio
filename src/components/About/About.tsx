@@ -32,6 +32,7 @@ import axureIcon from "../../assets/axure-icon.png";
 import photoshopIcon from "../../assets/photoshop-icon.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 import SpringIcon from "../../assets/Spring.svg";
+import TailwindIcon from "../../assets/Tailwind.svg"
 
 export function About() {
   return (
@@ -47,7 +48,7 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInRight" delay={0.1 * 1000}>
           <p>
-            Hi there! I'm Raghavendra Telkar,<br/><br/>Experienced UI/ UX Lead Front-End Engineer with 14 years of expertise in web
+            Hi there! I'm Raghavendra Telkar,<br/><br/>Experienced Lead Frontend UI Engineer with 14 years of expertise in web
 design and development for responsive applications. Skilled in <strong>HTML5, CSS3,
 Bootstrap, JavaScript (ES6), Angular, React, Redux, RTK, Node, TypeScript,
 Vite, NPM, Microfrontend</strong>. Proficient with design tools ( <i>Figma, Photoshop, Adobe
@@ -179,7 +180,11 @@ Seeking a Lead Engineer position focused on innovation and user experience .
               <img src={jqueryIcon} alt="jQuery" />
             </ScrollAnimation>
           </div>
-
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
+              <img src={TailwindIcon} alt="Tailwind CSS" />
+            </ScrollAnimation>
+          </div>
           {/* Build Tools */}
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
@@ -236,7 +241,7 @@ Seeking a Lead Engineer position focused on innovation and user experience .
           </div>
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.13 * 1000}>
-              <img src={xdIcon} alt="XD" />
+              <img src={xdIcon} alt="Adobe XD" />
             </ScrollAnimation>
           </div>
           <div className="hability">
