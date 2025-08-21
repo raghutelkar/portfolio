@@ -50,7 +50,7 @@ export function About() {
           <p>
             Hi there! I'm Raghavendra Telkar,<br/><br/>Experienced Lead Frontend UI Engineer with 14 years of expertise in web
 design and development for responsive applications. Skilled in <strong>HTML5, CSS3,
-Bootstrap, JavaScript (ES6), Angular, React, Redux, RTK, Node, TypeScript,
+Bootstrap, JavaScript (ES6), React, Redux, RTK, Angular, Node, TypeScript,
 Vite, NPM, Microfrontend</strong>. Proficient with design tools ( <i>Figma, Photoshop, Adobe
 XD, Sketch, Invision</i> ). Adheres to RWD and W3C accessibility standards. Proven
 leader of front-end engineering projects and innovative HCD / UXD interfaces.
