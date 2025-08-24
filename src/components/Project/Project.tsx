@@ -19,7 +19,7 @@ export function Project() {
             </header>
             <div className="body">
               <h3>WCP Financial Spreading</h3>
-              <p> I was responsible for building and developing the User experience side of UI functionalities for the WCP Financial Spreading micro-frontend with rich AG Grid interfaces, 
+              <p> I was responsible for leading and developing the User experience side of UI functionalities for the WCP Financial Spreading micro-frontend with rich AG Grid interfaces, 
                 <br/><br/><strong>Tech Stack:</strong> Used cutting edge latest technology stack such as HTML5, CSS3, React 18, React Hooks, RTK state management, Typescript, ES6, Node NPM, React Vite, CSS Vanilla Extract, React Storybook, RTL, Vitest unit test execution, Figma Design Tokens 
                 <br/><br/><strong>Design:</strong> Figma 
                 <br/><br/>Reusability, Accessibility, Extensibility are the key successful outcome </p>
@@ -34,7 +34,7 @@ export function Project() {
             </header>
             <div className="body">
               <h3>Web UI Reusable Core Components </h3>
-              <p> I was responsible for building reusable UI react Component library,
+              <p>  was responsible for leading and building reusable UI react Component library,
                 <br/><br/><strong>Tech Stack:</strong> Used cutting edge latest technology stack such as HTML5, CSS3, React 18, React Hooks, Typescript, ES6, Storybook, Node NPM, React Vite, CSS Vanilla Extract, React Storybook, RTL, Vitest unit test execution, Figma Design Tokens 
                 <br/><br/><strong>Design:</strong> Figma 
                 <br/><br/>Reusability, Accessibility, Extensibility are the key successful outcome </p>
