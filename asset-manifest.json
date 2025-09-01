@@ -1,14 +1,15 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.46961403.css",
-    "main.js": "/portfolio/static/js/main.3de61c74.js",
+    "main.js": "/portfolio/static/js/main.59b01659.js",
     "static/media/telkar.png": "/portfolio/static/media/telkar.b104ae943d94de2b935b.png",
-    "static/media/Telkar-Frontend-UI.pdf": "/portfolio/static/media/Telkar-Frontend-UI.0a58c28805aa38469908.pdf",
+    "static/media/Telkar-Frontend-Engineering-Lead.pdf": "/portfolio/static/media/Telkar-Frontend-Engineering-Lead.25f789ee830f0125085b.pdf",
     "static/media/Hello.gif": "/portfolio/static/media/Hello.d93720933c608f6178fb.gif",
     "static/media/uxui.png": "/portfolio/static/media/uxui.623688d7e537acb3fd1e.png",
     "static/media/project.png": "/portfolio/static/media/project.1d1e342430a9b070bcf4.png",
     "static/media/axure-icon.png": "/portfolio/static/media/axure-icon.65935114d2ddb7454a3c.png",
     "static/media/sass-icon.svg": "/portfolio/static/media/sass-icon.8351205a93eafac2e392b26acf7580e1.svg",
+    "static/media/ReactQuery.svg": "/portfolio/static/media/ReactQuery.2d535759927f6ccad010c271956f175b.svg",
     "static/media/cssvanillaextract-icon.svg": "/portfolio/static/media/cssvanillaextract-icon.5464e7c44dceafa9315be65730fda303.svg",
     "static/media/jquery-icon.svg": "/portfolio/static/media/jquery-icon.8e99a23470a18d9dd878e14bbb866e26.svg",
     "static/media/postman-icon.svg": "/portfolio/static/media/postman-icon.4f13d94619e491aa4cfa8ca9492ed110.svg",
@@ -17,6 +18,7 @@
     "static/media/visualstudio-icon.svg": "/portfolio/static/media/visualstudio-icon.ae90970b7990088d824d8e3a11d9024f.svg",
     "static/media/node-icon.svg": "/portfolio/static/media/node-icon.3dc364b8e9beb3561620274aea4f0844.svg",
     "static/media/jest-icon.svg": "/portfolio/static/media/jest-icon.19f1f902afdd6d48345325d83d8ed33b.svg",
+    "static/media/nextjs.svg": "/portfolio/static/media/nextjs.e3c042b9d9d809ebb67e9bc6e1e5f70d.svg",
     "static/media/typescript-icon.svg": "/portfolio/static/media/typescript-icon.17d5e87eac2c9d1dc722ce1e0b60d5df.svg",
     "static/media/whatsapp.svg": "/portfolio/static/media/whatsapp.459dad86534ca5699520ed770f3ce605.svg",
     "static/media/bootstrap-icon.svg": "/portfolio/static/media/bootstrap-icon.be374cc9bd654654918df2362bcfb240.svg",
@@ -48,10 +50,10 @@
     "static/media/webpack-icon.svg": "/portfolio/static/media/webpack-icon.8ed2785e6fb39bf5258a6b702b306bb6.svg",
     "static/media/angular-icon.svg": "/portfolio/static/media/angular-icon.04e21c2761b192a847021ca582c710d1.svg",
     "main.46961403.css.map": "/portfolio/static/css/main.46961403.css.map",
-    "main.3de61c74.js.map": "/portfolio/static/js/main.3de61c74.js.map"
+    "main.59b01659.js.map": "/portfolio/static/js/main.59b01659.js.map"
   },
   "entrypoints": [
     "static/css/main.46961403.css",
-    "static/js/main.3de61c74.js"
+    "static/js/main.59b01659.js"
   ]
 }
