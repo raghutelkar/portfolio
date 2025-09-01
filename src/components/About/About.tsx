@@ -1,5 +1,5 @@
 import { Container } from "./styles";
-import RaghuTelkar from "../../assets/telkar.png";
+import RaghuTelkar from "../../assets/profilepic.jpg";
 import htmlIcon from "../../assets/html-icon.svg";
 import cssIcon from "../../assets/css-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
@@ -41,7 +41,10 @@ export function About() {
     <Container id="about">
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInLeft" delay={0.20 * 1000}>
-          <img src={RaghuTelkar} alt="Raghu Telkar"/>
+          <img
+        src={RaghuTelkar}
+        alt="Raghu Telkar"
+          />
         </ScrollAnimation>
       </div>
       <div className="about-text">
