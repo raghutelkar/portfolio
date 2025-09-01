@@ -33,6 +33,8 @@ import photoshopIcon from "../../assets/photoshop-icon.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 import SpringIcon from "../../assets/Spring.svg";
 import TailwindIcon from "../../assets/Tailwind.svg"
+import NextIcon from "../../assets/nextjs.svg"
+import ReactQ from '../../assets/ReactQuery.svg'
 
 export function About() {
   return (
@@ -48,7 +50,7 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInRight" delay={0.1 * 1000}>
           <p>
-            Hi there! I'm Raghavendra Telkar,<br/><br/><strong>Lead Frontend UI Engineer</strong> with <strong>14 years' experience</strong> designing and developing responsive, user‑centric web applications. I’m highly skilled in <strong>HTML5, CSS3, Bootstrap, JavaScript (ES6), React, Redux, RTK, Angular, Node, TypeScript, Vite, NPM, and Microfrontend architecture</strong>, and adept with industry‑leading design tools including Figma, Photoshop, Adobe XD, Sketch, and InVision.
+            Hi there! I'm Raghavendra Telkar,<br/><br/><strong>Frontend Engineering Lead</strong> with <strong>14 years' experience</strong> designing and developing responsive, user‑centric web applications. I’m highly skilled in <strong>HTML5, CSS3, Bootstrap, JavaScript (ES6), React, Redux, RTK, Nextjs, React Query TanStack, Angular, Node, TypeScript, Vite, NPM, and Microfrontend architecture</strong>, and adept with industry‑leading design tools including Figma, Photoshop, Adobe XD, Sketch, and InVision.
             <br/><br/>
             I specialise in delivering <strong>scalable, high‑performance, and accessible React solutions</strong> while leading and mentoring high‑performing teams. My approach blends <strong>hands‑on coding expertise</strong> with <strong>capability building</strong> — championing engineering best practices, driving automation, and enabling cross‑squad collaboration to deliver measurable business outcomes.
           </p>
@@ -66,13 +68,18 @@ export function About() {
           <p><strong>Agile Methodologies</strong> -  Extensive experience working in Agile environments and leading teams in Agile transformation. </p>
         </ScrollAnimation> */}
         <ScrollAnimation animateIn="fadeInRight" delay={0.3 * 1000}>
-          <h3>Here are my UI Frontend Engineering Skills:</h3>
+          <h3>Here are my Frontend Engineering Skills:</h3>
         </ScrollAnimation>
         <div className="hard-skills">
           {/* Frontend Frameworks */}
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.13 * 1000}>
               <img src={reactIcon} alt="React" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.14 * 1000}>
+              <img src={NextIcon} alt="Nextjs" />
             </ScrollAnimation>
           </div>
           <div className="hability">
@@ -85,6 +92,11 @@ export function About() {
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.14 * 1000}>
               <img src={reduxtoolkitIcon} alt="Redux Toolkit" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.14 * 1000}>
+              <img src={ReactQ} alt="React Query" />
             </ScrollAnimation>
           </div>
 
