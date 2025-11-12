@@ -2,7 +2,7 @@ import { Container } from './styles'
 import { BrowserRouter as Router } from 'react-router-dom'
 import { NavHashLink, HashLink } from 'react-router-hash-link'
 import { useState, useEffect } from 'react'
-import Resume from '../../assets/Telkar-Frontend-Engineering-Lead.pdf'
+import Resume from '../../assets/RaghuTelkar-UI-Frontend-Engineering-Lead.pdf'
 
 export function Header() {
   const [isActive, setActive] = useState(false)

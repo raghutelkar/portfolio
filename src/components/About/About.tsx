@@ -35,6 +35,7 @@ import SpringIcon from "../../assets/Spring.svg";
 import TailwindIcon from "../../assets/Tailwind.svg"
 import NextIcon from "../../assets/nextjs.svg"
 import ReactQ from '../../assets/ReactQuery.svg'
+import MotionIcon from '../../assets/motion.jpg'
 
 export function About() {
   return (
@@ -205,6 +206,11 @@ export function About() {
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
               <img src={webpackIcon} alt="Webpack" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
+              <img src={MotionIcon} alt="Motion" />
             </ScrollAnimation>
           </div>
 
