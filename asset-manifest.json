@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.46961403.css",
-    "main.js": "/portfolio/static/js/main.983a40d2.js",
+    "main.js": "/portfolio/static/js/main.ed4a9b7a.js",
+    "static/media/RaghuTelkar-UI-Frontend-Engineering-Lead.pdf": "/portfolio/static/media/RaghuTelkar-UI-Frontend-Engineering-Lead.6edc82bba83dc89fd23a.pdf",
     "static/media/Hello.gif": "/portfolio/static/media/Hello.d93720933c608f6178fb.gif",
-    "static/media/RaghuTelkar-UI-Frontend-Engineering-Lead.pdf": "/portfolio/static/media/RaghuTelkar-UI-Frontend-Engineering-Lead.61b83e9ab41f657d15b6.pdf",
     "static/media/uxui.png": "/portfolio/static/media/uxui.623688d7e537acb3fd1e.png",
     "static/media/profilepic.jpg": "/portfolio/static/media/profilepic.a34a3741dd20f2d45919.jpg",
+    "static/media/motion.jpg": "/portfolio/static/media/motion.500bf011f96b15330448.jpg",
     "static/media/project.png": "/portfolio/static/media/project.1d1e342430a9b070bcf4.png",
     "static/media/axure-icon.png": "/portfolio/static/media/axure-icon.65935114d2ddb7454a3c.png",
     "static/media/sass-icon.svg": "/portfolio/static/media/sass-icon.8351205a93eafac2e392b26acf7580e1.svg",
@@ -50,10 +51,10 @@
     "static/media/webpack-icon.svg": "/portfolio/static/media/webpack-icon.8ed2785e6fb39bf5258a6b702b306bb6.svg",
     "static/media/angular-icon.svg": "/portfolio/static/media/angular-icon.04e21c2761b192a847021ca582c710d1.svg",
     "main.46961403.css.map": "/portfolio/static/css/main.46961403.css.map",
-    "main.983a40d2.js.map": "/portfolio/static/js/main.983a40d2.js.map"
+    "main.ed4a9b7a.js.map": "/portfolio/static/js/main.ed4a9b7a.js.map"
   },
   "entrypoints": [
     "static/css/main.46961403.css",
-    "static/js/main.983a40d2.js"
+    "static/js/main.ed4a9b7a.js"
   ]
 }
